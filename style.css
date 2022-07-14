@@ -1,0 +1,178 @@
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.mainimg{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(100, 53, 219, 0), rgb(122, 119, 202)),
+                  url("/images/automobile-3230876_640.jpg");
+    position: relative;
+
+}
+
+.color-overlay h1{
+    font-size: 3rem;
+
+}
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(145, 136, 162, 0.2);
+    color: white;
+    display: block;
+    
+
+}
+
+.usp-section{
+    width: auto;
+    background: linear-gradient(
+        to right,
+        rgb(242, 246, 249) 0%,
+        rgb(242, 246, 249) 25%,
+        rgb(255, 255, 255) 25%,
+        rgb(255, 255, 255) 100%
+    );
+    padding: 120px 0px;
+}
+
+
+.usp-section2{
+    width: auto;
+    background: linear-gradient(
+        to left,
+        rgb(242, 246, 249) 0%,
+        rgb(242, 246, 249) 25%,
+        rgb(255, 255, 255) 25%,
+        rgb(255, 255, 255) 100%
+    );
+    padding: 120px 0px;
+}
+
+.serviceHeading{
+    font: 18px;
+    color:#333333;
+}
+
+.leftsideimg{
+    position: absolute;
+    margin-left: 0px;
+    width: 35%;
+    height: 80%;
+}
+
+.lsect{
+ 
+    width: 100%;
+    background-color: white;
+    position: relative;
+    }
+
+.rsect #dark{
+   float: right;
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+    
+}
+.lsect #dark{
+    float: left;
+     width: 20%;
+     height: 100%;
+     background-color: #F2F6F9;
+     
+ }
+
+.maindcp{
+    position: absolute;
+    margin-top: 5%;
+    height: 80%;
+    width: auto;
+    background-color: transparent;
+    overflow: hidden;    
+   
+}
+
+.allservices{
+
+    background-color: rgb(242, 246, 249);
+    padding: 120px 0px;
+}
+h2,h1,h4,h5,h6,p{
+    overflow: hidden;
+}
+.img-thumbnail{
+    border: 0px;
+    border-radius: 0%;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+h3{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.currentstandings{
+   
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-image: linear-gradient(to bottom, rgba(100, 53, 219, 0), rgb(122, 119, 202)),
+                      url("/images/machine-1793824_1280.jpg");
+        position: relative;
+}
+
+
+.profilepic{
+    height: 50px;
+}
+
+
+.lastjmg{
+    height: 95vh;
+    width: 100%;
+    margin-top: 30px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(100, 53, 219, 0), rgb(122, 119, 202)),
+                  url("/images/automobile-3230876_640.jpg");
+    position: relative;
+
+}
+
+.icon{
+    height: 100%;
+    width: 100%;
+   padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.Ourprices{
+    padding: 100px 100px;
+}
+
+.feedback{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.footercustom{
+    background-color: #000005;
+    color: #666666;
+}
+.Associations{
+    padding-bottom: 120px;
+
+}
+
+.counts{
+    font-size: 93px;
+}
